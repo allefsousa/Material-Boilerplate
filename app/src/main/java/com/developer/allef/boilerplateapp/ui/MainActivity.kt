@@ -1,13 +1,21 @@
 package com.developer.allef.boilerplateapp.ui
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import com.developer.allef.boilerplateapp.R
+import androidx.appcompat.app.AppCompatActivity
+import com.developer.allef.boilerplateapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var viewBinding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        viewBinding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(viewBinding.root)
+
+        viewBinding.btnNavigate.setOnClickListener {
+            startActivity(Intent(this, ButtonActivity::class.java))
+        }
     }
 }
