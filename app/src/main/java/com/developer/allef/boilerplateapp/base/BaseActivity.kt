@@ -45,7 +45,6 @@ abstract class BaseActivity : AppCompatActivity(), LifecycleOwner, Alertable, Pr
         setupLayout()
         initView()
         middleOnCreate()
-        afterOnCreate()
     }
 
     open fun setupLayout() {
@@ -310,7 +309,6 @@ abstract class BaseActivity : AppCompatActivity(), LifecycleOwner, Alertable, Pr
         return intent
     }
 
-    abstract fun afterOnCreate()
 
     fun onBackPressed(view: View?) = onBackPressed()
 

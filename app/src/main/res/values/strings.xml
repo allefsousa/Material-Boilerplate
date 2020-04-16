@@ -23,4 +23,8 @@
     <string name="refuse">Recusar</string>
     <string name="accept">Aceitar</string>
     <string name="push_notifications">Notificações via PUSH</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

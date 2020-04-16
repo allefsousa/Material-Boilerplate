@@ -27,3 +27,6 @@ fun View.handleTime(textView: TextView) {
 fun View.inverse() {
     isSelected = isSelected.not()
 }
+fun View.onClick(function: () -> Unit) {
+    setOnClickListener { function() }
+}

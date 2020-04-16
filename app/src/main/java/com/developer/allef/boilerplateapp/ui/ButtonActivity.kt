@@ -15,6 +15,5 @@ class ButtonActivity : AppCompatActivity() {
         setContentView(viewBinding.root)
 
 
-
     }
 }
