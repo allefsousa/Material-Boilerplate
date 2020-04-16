@@ -14,14 +14,6 @@ abstract class BaseActivityWebView : BaseActivity() {
     abstract val webView: WebView
     abstract val myUrl: String
 
-    override fun afterOnCreate() {
-        enableHomeAsUpActionBar()
-
-        setCustomTitleToolbar(titulo)
-        handleWebView()
-
-        load(myUrl)
-    }
 
     abstract fun handleWebView()
 
