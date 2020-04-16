@@ -9,7 +9,7 @@
     android:paddingRight="20dp"
     android:paddingTop="15dp"
     android:orientation="vertical"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.HomeActivity">
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_navigate"
@@ -33,10 +33,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_navigate" />
-    <FrameLayout
-        android:id="@+id/frag_container"
-        android:orientation="vertical"
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_dialog"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:text="Android Dialogs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_navigate" />
+
 
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.developer.allef.boilerplateapp.ui.ButtonActivity">
+    tools:context="com.developer.allef.boilerplateapp.ui.buttons.ButtonActivity">
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

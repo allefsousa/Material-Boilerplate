@@ -1,10 +1,9 @@
-package com.developer.allef.boilerplateapp.ui
+package com.developer.allef.boilerplateapp.ui.buttons
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.developer.allef.boilerplateapp.R
 import com.developer.allef.boilerplateapp.databinding.ActivityButtonBinding
-import com.developer.allef.boilerplateapp.databinding.ActivityMainBinding
 
 class ButtonActivity : AppCompatActivity() {
     private lateinit var viewBinding: ActivityButtonBinding

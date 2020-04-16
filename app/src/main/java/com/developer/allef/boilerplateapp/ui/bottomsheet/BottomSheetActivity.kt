@@ -6,8 +6,6 @@ import android.os.Bundle
 import com.developer.allef.boilerplateapp.R
 import com.developer.allef.boilerplateapp.base.BaseActivity
 import com.developer.allef.boilerplateapp.databinding.ActivityBottomSheetBinding
-import com.developer.allef.boilerplateapp.databinding.ActivityButtonBinding
-import com.developer.allef.boilerplateapp.databinding.ActivityMainBinding
 import com.developer.allef.boilerplateapp.extensions.onClick
 
 class BottomSheetActivity : BaseActivity() {

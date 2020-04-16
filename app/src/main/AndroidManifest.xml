@@ -12,10 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.bottomsheet.BottomSheetInActivity"></activity>
+        <activity android:name=".ui.dialog.DialogActivity"></activity>
+        <activity android:name=".ui.bottomsheet.BottomSheetInActivity" />
         <activity android:name=".ui.bottomsheet.BottomSheetActivity" />
-        <activity android:name=".ui.ButtonActivity" />
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".ui.buttons.ButtonActivity" />
+        <activity android:name=".ui.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
