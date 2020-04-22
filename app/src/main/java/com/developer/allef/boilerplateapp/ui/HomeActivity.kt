@@ -8,6 +8,7 @@ import com.developer.allef.boilerplateapp.extensions.onClick
 import com.developer.allef.boilerplateapp.ui.bottomsheet.BottomSheetActivity
 import com.developer.allef.boilerplateapp.ui.buttons.ButtonActivity
 import com.developer.allef.boilerplateapp.ui.dialog.DialogActivity
+import com.developer.allef.boilerplateapp.ui.transitions.TransitionsActivity
 
 
 class HomeActivity : BaseActivity() {
@@ -31,6 +32,10 @@ class HomeActivity : BaseActivity() {
 
         viewBinding.btnDialog.onClick {
             goTo<DialogActivity>()
+        }
+
+        viewBinding.btnTransitions.onClick {
+            goTo<TransitionsActivity>()
         }
     }
 
