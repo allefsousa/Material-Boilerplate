@@ -18,18 +18,22 @@ class TransitionsActivity : AppCompatActivity() {
             finish()
             overridePendingTransition(R.anim.push_down_in, R.anim.push_down_out)
         }
+
         viewBinding.btnCloseTop.onClick {
             finish()
             overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out)
         }
+
         viewBinding.btnCloseFade.onClick {
             finish()
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
         }
+
         viewBinding.btnCloseSlideLeft.onClick {
             finish()
             overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left)
         }
+
         viewBinding.btnCloseSlideRigth.onClick {
             finish()
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right)
@@ -38,6 +42,7 @@ class TransitionsActivity : AppCompatActivity() {
             finish()
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
+
         viewBinding.btnCloseLeftRigth.onClick {
             finish()
             overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
